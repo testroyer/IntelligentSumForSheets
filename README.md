@@ -5,10 +5,10 @@
 This script was written for calculating personal expenses on a Google Sheets Document. Feel free to use it on your own personal work.
 
 ## Coloring
-- Light Green 1 `#93c47d` for Personal Credit Expenses
-- Light Red 1 `#e06666` for Non-Personal Credit Expenses
-- Light Cornflower Blue 1 `#6d9eeb` for Non-Credit Expenses
-- Light Yellow 1 `#ffd966` for expenses to be ignored (waiting for currency rate etc.)
+- Light Green 1 ![#93c47d](https://placehold.co/15x15/93c47d/93c47d.png) `#93c47d` for Personal Credit Expenses
+- Light Red 1 ![#e06666](https://placehold.co/15x15/e06666/e06666.png) `#e06666` for Non-Personal Credit Expenses
+- Light Cornflower Blue 1 ![#6d9eeb](https://placehold.co/15x15/6d9eeb/6d9eeb.png) `#6d9eeb` for Non-Credit Expenses
+- Light Yellow 1 ![#ffd966](https://placehold.co/15x15/ffd966/ffd966.png) `#ffd966` for expenses to be ignored (waiting for currency rate etc.)
 
 ## Calling the functions
 
