@@ -13,8 +13,8 @@ function onOpen(e) {
 }
 
 
-const green = '#93c47d'; //Light green
-const red = '#e06666';  //Light red
+const green = '#93c47d'; //Light green 1
+const red = '#e06666';  //Light red 1
 const blue = '#6d9eeb'; //Light cornflower blue 1
 const yellow = '#ffd966'; // Light yellow 1
 
