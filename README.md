@@ -21,8 +21,8 @@ On [Apps Script](https://script.google.com/home) after having created the projec
 
 1. `onEdit` Trigger which calls the `onEdit(e)` function when a value is changed
 
-[OnEdit Trigger Parameters](./img/onEdit.png)
+![OnEdit Trigger Parameters](./img/onEdit.png)
 
 2. `onChange` Trigger which calls the `onEdit(e)` function when a background is changed
 
-[OnChange Trigger Parameters](./img/onChange.png)
+![OnChange Trigger Parameters](./img/onChange.png)
