@@ -16,6 +16,7 @@ function onOpen(e) {
 const green = '#93c47d'; //Light green
 const red = '#e06666';  //Light red
 const blue = '#6d9eeb'; //Light cornflower blue 1
+const yellow = '#ffd966'; // Light yellow 1
 
 
 //Credit usage for personal use
@@ -94,7 +95,9 @@ function getColumnTotalSum(column, output) {
 
   for (var i = 0; i < data.length; i++) {
     // Additional NaN check would be handy if the end user messes up
-    
+    if (backgrounds[i][0] == yellow) {
+      continue;
+    }
     totalSum += parseFloat(data[i][0]) || 0;
     
 
