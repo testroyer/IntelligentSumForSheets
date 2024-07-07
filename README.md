@@ -4,7 +4,7 @@
 
 This script was written for calculating personal expenses on a Google Sheets Document. Feel free to use it on your own personal work.
 
-## Coloring
+## Colouring
 - Light Green 1 `#93c47d` ![#93c47d](https://placehold.co/15x15/93c47d/93c47d.png) for Personal Credit Expenses
 - Light Red 1 `#e06666` ![#e06666](https://placehold.co/15x15/e06666/e06666.png) for Non-Personal Credit Expenses
 - Light Cornflower Blue 1 `#6d9eeb` ![#6d9eeb](https://placehold.co/15x15/6d9eeb/6d9eeb.png) for Non-Credit Expenses
