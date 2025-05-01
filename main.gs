@@ -13,8 +13,8 @@ function onOpen(e) {
 }
 
 
-const green = '#93c47d'; //Light green 1
-const red = '#e06666';  //Light red 1
+const green = '#93c47d'; //Light green
+const red = '#e06666';  //Light red
 const blue = '#6d9eeb'; //Light cornflower blue 1
 const yellow = '#ffd966'; // Light yellow 1
 
@@ -33,6 +33,8 @@ function getColumnGreenSum(column, output) {
     // Additional NaN check would be handy if the end user messes up
     if (backgrounds[i][0] == green) {
       greenSum += parseFloat(data[i][0]) || 0;
+    } else if (backgrounds[i][0] == yellow) {
+      greenSum -= parseFloat(data[i][0]) || 0;
     }
 
   }
@@ -100,7 +102,6 @@ function getColumnTotalSum(column, output) {
     }
     totalSum += parseFloat(data[i][0]) || 0;
     
-
   }
   sheet.getRange(5, output).setValue(totalSum);
 }
