@@ -64,7 +64,7 @@ function getColumnCreditSum(column, output) {
   sheet.getRange(3, output).setValue(creditSum);
 }
 
-//Blue for cash
+//Blue for other
 function getColumnBlueSum(column, output) {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   var dataRange = sheet.getRange(1, column, sheet.getLastRow(), 1);
